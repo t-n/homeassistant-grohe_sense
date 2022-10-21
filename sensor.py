@@ -25,12 +25,25 @@ SENSOR_TYPES = {
         'temperature_guard': SensorType(TEMP_CELSIUS, DEVICE_CLASS_TEMPERATURE, lambda x : x),
         'open_close_cycles_still': SensorType(" ", None, lambda x : x),
         'open_close_cycles_carbonated': SensorType(" ", None, lambda x : x),
+        'water_running_time_still': SensorType(" ", None, lambda x : x),
+        'water_running_time_medium': SensorType(" ", None, lambda x : x),
+        'water_running_time_carbonated': SensorType(" ", None, lambda x : x),
+        'remaining_filter': SensorType(" ", None, lambda x : x),
+        'remaining_co2': SensorType(" ", None, lambda x : x),
+        'date_of_filter_replacement': SensorType(" ", None, lambda x : x),
+        'date_of_co2_replacement': SensorType(" ", None, lambda x : x),
+        'date_of_cleaning': SensorType(" ", None, lambda x : x),
+        'power_cut_count': SensorType(" ", None, lambda x : x),
+        'time_since_restart': SensorType(" ", None, lambda x : x),
+        'time_since_last_withdrawal': SensorType(" ", None, lambda x : x),
+        'filter_change_count': SensorType(" ", None, lambda x : x),
+        'cleaning_count': SensorType(" ", None, lambda x : x)
         }
 
 SENSOR_TYPES_PER_UNIT = {
         GROHE_SENSE_TYPE: [ 'temperature', 'humidity'],
         GROHE_SENSE_GUARD_TYPE: [ 'flowrate', 'pressure', 'temperature_guard'],
-        GROHE_BLUE_HOME_TYPE: [ 'open_close_cycles_still', 'open_close_cycles_carbonated' ]
+        GROHE_BLUE_HOME_TYPE: [ 'open_close_cycles_still', 'open_close_cycles_carbonated', 'water_running_time_still', 'water_running_time_medium', 'water_running_time_carbonated', 'remaining_filter', 'remaining_co2', 'date_of_filter_replacement', 'date_of_co2_replacement', 'date_of_cleaning', 'power_cut_count', 'time_since_restart', 'time_since_last_withdrawal', 'filter_change_count', 'cleaning_count' ]
         }
         #GROHE_BLUE_HOME_TYPE: [ 'open_close_cycles_still', 'open_close_cycles_carbonated', 'water_running_time_still', 'water_running_time_medium', 'water_running_time_carbonated', 'operating_time', 'max_idle_time', 'pump_count', 'pump_running_time', 'remaining_filter', 'remaining_co2', 'date_of_filter_replacement', 'date_of_co2_replacement', 'date_of_cleaning', 'power_cut_count', 'time_since_restart', 'time_since_last_withdrawal', 'filter_change_count', 'cleaning_count' ]
 
