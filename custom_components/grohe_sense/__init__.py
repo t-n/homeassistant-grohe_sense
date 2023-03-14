@@ -32,7 +32,7 @@ CONFIG_SCHEMA = vol.Schema(
 )
 
 GROHE_BASE_URL = 'https://idp2-apigw.cloud.grohe.com/'
-BASE_URL = GROHE_BASE_URL + '/v3/iot/'
+BASE_URL = GROHE_BASE_URL + 'v3/iot/'
 
 
 GROHE_SENSE_TYPE = 101  # Type identifier for the battery powered water detector
