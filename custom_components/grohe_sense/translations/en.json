@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Grohe Sense",
+        "description": "If you need help with the configuration have a look here: ",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "auth": "Username/Password is wrong.",
+      "unknown": "Something went wrong"
+    }
+  }
+}

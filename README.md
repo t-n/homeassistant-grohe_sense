@@ -1,5 +1,5 @@
 # homeassistant-grohe_sense
-Grohe Sense integration for Home Assistant
+Grohe Sense/Grohe Blue integration for Home Assistant
 
 ####################################################################################
 Initial attempt to add Grohe Blue Home chilled water tap
@@ -9,7 +9,7 @@ Still very early in development, only few added sensors, and no real switches ye
 
 
 
-This is an integration to get Grohe Sense (small leak sensor) and Grohe Sense Guard (main water pipe sensor/breaker) sensors into Home Assistant. Far from production quality, not affiliated with Grohe. My understanding of the protocol is based on https://github.com/FlorianSW/grohe-ondus-api-java.
+This is an integration to get Grohe Sense (small leak sensor), Grohe Sense Guard (main water pipe sensor/breaker) and Grohe Blue (faucets) sensors into Home Assistant. Far from production quality, not affiliated with Grohe. My understanding of the protocol is based on https://github.com/FlorianSW/grohe-ondus-api-java.
 
 When you install this, you get the following sensors for Sense:
  - **humidity**
